@@ -4,5 +4,71 @@
 }
 
 .parallax-container {
-	max-height: 300px;
+	max-height: 400px;
+}
+
+.card-font {
+	font-size: 12px;z
+}
+
+/*
+
+.container {
+	background-color: #fafafa;
+}
+
+body {
+	background-color: #212121;
+}
+
+*/
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+}
+
+h5 {
+	margin-top: -20px;
+	text-align: center;
+	color: #fff;
+}
+
+#txtPrinc {
+	text-align: justify;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.parallax-outro {
+	clear: both;
+	max-height: 200px;
+}
+
+.classe-cartao {
+	padding-top: 10%;
+}
+
+p {
+	text-align: justify;
+}
+
+#xarangas {
+	text-align: center;
+
+}
+
+#gadgets {
+	text-align: left;
+}
+
+.rodape {
+	margin-top: 5%;
+	margin-bottom: 35px;
+}
+
+.rodape1 {
+	margin-bottom: 2%;
+	margin-left: 20%;
 }

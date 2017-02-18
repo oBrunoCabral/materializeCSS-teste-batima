@@ -1,6 +1,7 @@
  <!DOCTYPE html>
-  <html>
+  <html lang="pt-br">
     <head>
+		<meta charset="UTF-8"> 
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -11,17 +12,19 @@
     </head>
 
     <body>
+    <audio autoplay loop>
+      <source src="horse.ogg" type="audio/ogg">
+      <source src="horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+<!-- NAVBAR -->
       <header>
         <nav>
-          <div class="nav-wrapper grey darken-4">
+          <div class="nav-wrapper grey darken-4 col m12">
             <a href="#" class="brand-logo center">
               <img class="navLogo" src="media/img/logo-nav.png">
             </a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-              <li><a href="sass.html">Quenhé</a></li>
-              <li><a href="badges.html">Comofas</a></li>
-              <li><a href="collapsible.html">Shitless</a></li>
-            </ul>
           </div>
         </nav>
       </header>
@@ -29,25 +32,149 @@
 <!-- imagem principal parallax -->
 
       <div class="parallax-container">
-        <div class="parallax"><img src="media/img/parallax-hero1.jpg"></div>
+        <div class="parallax"><img src="media/img/parallax-hero1.jpg">
+        </div>
       </div>
+      <div class="divisor" style="height: 10px; background-color: #fff;"></div>
 
 <!-- Início do container principal -->
       <div class="container">
        
         <div class="row">
           <div class="col s12">
-            <h1 id="sobreBatima">Quenhé?</h1>
-            <p>Batman é um personagem fictício, um super-herói da banda desenhada americana publicada pela DC Comics. Foi criado pelo escritor Bill Finger e pelo artista Bob Kane, e apareceu pela primeira vez na revista Detective Comics #27 (Maio de 1939). Originalmente com o nome "o Bat-Man", o personagem também é conhecido por vários epítetos como "o Cruzado de Capa" (The Caped Crusader), "o Cavaleiro das Trevas" (The Dark Knight), e "o Maior Detective do Mundo" (The World's Greatest Detective).</p>
 
-            <p>Batman tornou-se popular assim que foi apresentado, acabando por ganhar a sua própria revista de banda desenhada em 1940, Batman. Enquanto as décadas progrediram, foram surgindo divergências sobre a interpretação do personagem. No final dos anos de 1960 a série de televisão Batman usava uma estética camp, que continuou a ser associada ao personagem durante muitos anos, mesmo depois da série ter acabado. Vários criadores trabalharam no sentido de trazer de novo o personagem de volta às suas raízes sombrias, culminando com The Dark Knight Returns (1986) de Frank Miller, seguido por Batman: The Killing Joke (1988) de Alan Moore e Arkham Asylum: A Serious House on Serious Earth (1989) de Grant Morrison. O sucesso dos filmes Batman da Warner Bros. ajudaram a manter o interesse do público na personagem.</p>                    
+            <div class="parallax-container parallax-outro">
+              <h1 name="sobre" id="sobreBatima">Quenhé o BATIMA</h1>
+              <div class="parallax"><img src="media/img/parallax-outro.jpg">
+              </div>
+            </div>          
+
+            <p id="txtPrinc">Batman é um personagem fictício, um super-herói da banda desenhada americana publicada pela DC Comics. Foi criado pelo escritor Bill Finger e pelo artista Bob Kane, e apareceu pela primeira vez na revista Detective Comics #27 (Maio de 1939). Originalmente com o nome "o Bat-Man", o personagem também é conhecido por vários epítetos como "o Cruzado de Capa" (The Caped Crusader), "o Cavaleiro das Trevas" (The Dark Knight), e "o Maior Detective do Mundo" (The World's Greatest Detective).</p>
+
+            <p id="txtPrinc">Batman tornou-se popular assim que foi apresentado, acabando por ganhar a sua própria revista de banda desenhada em 1940, Batman. Enquanto as décadas progrediram, foram surgindo divergências sobre a interpretação do personagem. No final dos anos de 1960 a série de televisão Batman usava uma estética camp, que continuou a ser associada ao personagem durante muitos anos, mesmo depois da série ter acabado. Vários criadores trabalharam no sentido de trazer de novo o personagem de volta às suas raízes sombrias, culminando com The Dark Knight Returns (1986) de Frank Miller, seguido por Batman: The Killing Joke (1988) de Alan Moore e Arkham Asylum: A Serious House on Serious Earth (1989) de Grant Morrison. O sucesso dos filmes Batman da Warner Bros. ajudaram a manter o interesse do público na personagem.</p>                    
           </div>
         </div>
 
+  <!-- Início dos gadgets -->
+        <div class="row">
+          <div class="col s12">
 
+            <div class="parallax-container parallax-outro">
+              <h1 name="comoAge" id="comoAge">Comofas o BATIMA</h1>
+              <h5>Gadgets do homem<i> moguerço</i>.</h5>
+              <div class="parallax"><img src="media/img/parallax-outro.jpg">
+              </div>
+            </div>  
+
+            <div class="col m4 s12">
+              <div class="card classe-cartao">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="media/img/gadBatarang.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Batarang<i class="material-icons right">more_vert</i></span>
+                  <p id='gadgets'>Clique na imagem para ver mais</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Batarang<i class="material-icons right">close</i></span>
+                  <p>A arma mais icônica do maior detetive da DC. Ele taca saporra em todo mundo e dá certo. É tipo um chinelo de mãe: Onde ele mira, ele acerta essa merda.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col m4 s12">
+              <div class="card classe-cartao">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="media/img/gadBatGarra.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Bat Garra<i class="material-icons right">more_vert</i></span>
+                  <p id='gadgets'>Clique na imagem para ver mais</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Bat Garra<i class="material-icons right">close</i></span>
+                  <p>Manja o Homem Aranha? Então, o Batima faz um balanço entre os prédios de Gotham tipo o amigo da vizinhança usando essa paradinha aí.<br> Além de servir pra amarrar os <i>bad guys</i> também.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col m4 s12">
+              <div class="card classe-cartao">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="media/img/gadBombaFu.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title card-font activator grey-text text-darken-4">Bombas<i class="material-icons right">more_vert</i></span>
+                  <p id='gadgets'>Clique na imagem para ver mais</p>                  
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title card-font grey-text text-darken-4">Bombas de Fumaça<i class="material-icons right">close</i></span>
+                  <p>A bomba de fumaça é a que ele mais usa. Afinal, ele nunca mata ninguém. Mas também tem as de gás lacrimogênio que fazem os caras chorar chamando a <i>mamai</i>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Fim dos cartões com Gadgets -->
+
+        <div class="row">
+          <div class="col s12">
+
+            <div class="parallax-container parallax-outro">
+              <h1 name="sobre" id="sobreBatima">Xarangas do BATIMA</h1>
+              <div class="parallax"><img src="media/img/parallax-outro.jpg">
+              </div>
+            </div>
+
+            <ul class="collapsible popout" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header"><p id="xarangas">Batmóvel <br> Clique para ver mais</p>
+                </div>
+                <div class="collapsible-body"> <img style="margin: 0 auto;max-width: 100%; height: auto;" class="materialboxed" width="650" src="media/img/veicBatmovel.jpg">
+                <p id="pXarangas">Batmovel é o veículo mais icônico do Homem <i>Moguerço</i>. Antes de existir qualquer outra invenção dos filmes do Tim Burton, o primeiro a dar as caras foi esse carango clássico.</p>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><p id="xarangas">BatWing  <br>Clique para ver mais</p>
+                </div>
+                <div class="collapsible-body"> <img style="margin: 0 auto;max-width: 100%; height: auto;" class="materialboxed" width="650" src="media/img/veicBatwing.jpg">
+                <p id="pXarangas">Batwing é mais ou menos um Batmovel aéreo (<s>dãããããã</s>). O Batima normalmente usava ele quando precisava ir da Batcaverna para um lugar MUITO longe de maneira muito rápida.</p>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><p id="xarangas">BatBoat  <br>Clique para ver mais</p>
+                </div>
+                <div class="collapsible-body"> <img style="margin: 0 auto;max-width: 100%; height: auto;" class="materialboxed" width="650" src="media/img/veicBatboat.jpg">
+                <p id="pXarangas">Assim como o Batwing, esse Batboat também é mais ou menos um Batmovel... Só que aquático... <s><<i>Woooow</i></s>. Batima usa saporra ae pra poder navegar entre ilhas e terras longínquas.</p>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header"><p id="xarangas">BatPod <br>Clique para ver mais</p>
+                </div>
+                <div class="collapsible-body"> <img style="margin: 0 auto;max-width: 100%; height: auto;" class="materialboxed" width="650" src="media/img/veicBatpod.jpg">
+                <p id="pXarangas">Esse veículo é um dos mais legais. O único da lista que foi criado no século XXI (<i>Não é século Xis-Vê-Í... Vinte e Um caras... Aprendam números romanos</i>). Enfim, esse é como se fosse um filho do Tumbler <s>(o Batmóvel mais legal)</s>, que é ejetado dele antes dos seus procedimentos de autodestruição.</p>
+                </div>
+              </li>              
+            </ul>
+
+
+          </div>
+        </div>       
+
+<!--FIM DO CONTAINER PRINCIPAL-->
       </div>
 
+      
+<!-- RODAPÉ-->  
 
+     <footer class="page-footer grey darken-4 rodape">
+        <div class="footer-copyright">
+          <div class="container rodape1">
+          <a target="_blank" class="grey-text text-lighten-4 center" href="https://www.facebook.com/bruno.cabral.31">Gostou? Eu que Fiz!             </a>
+          
+          </div>
+        </div>
+      </footer>
 
 
 
@@ -60,7 +187,17 @@
       <script type="text/javascript">
         $(document).ready(function(){
           $('.parallax').parallax();
-        });        
+        });
+
+        $(document).ready(function(){
+          $('.materialboxed').materialbox();
+        });
+
+        function play(){
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+
       </script>      
     </body>
   </html>
